@@ -1,7 +1,12 @@
+
 package pl.coderslab.methods;
+public class Main01
+{    public static void main(String[] args) {
+    int multiply2 = multiply(3,4);
+    System.out.println(multiply2);
 
-public class Main01 {
-
-    public static void main(String[] args) {
-    }
+}    public static int multiply(int multipler, int index){
+    int multiplyLocal = multipler*index;
+    return multiplyLocal;
+}
 }
