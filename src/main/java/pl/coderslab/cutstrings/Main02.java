@@ -8,7 +8,12 @@ public class Main02 {
                 "Jennifer Parker,Mark Dixon,Linda McFly,Match,Lou,Goldie Wilson,Dr. Emmett Brown,Skinhead,Biff Tannen,Marty McFly," +
                 "Mr. Peabody,Marvin Berry,George McFly,Sam Baines,Mr. Strickland,Sally Baines,Dave McFly";
 
+String [] tab = str.split(",");
+        for (int i = 0; i < tab.length; i++) {
+            System.out.println(tab[i]);
 
+
+        }
     }
 
 
