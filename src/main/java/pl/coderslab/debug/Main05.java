@@ -12,6 +12,9 @@ public class Main05 {
         for (int element : input) {
             result += element;
         }
-        return result;
+        return result / input.length;
     }
 }
+// W pliku Main05 znajduje się metoda, która ma obliczyć średnią elementów podanych jako argument.
+//
+//zdebuguj, a następnie popraw program tak by zwracał poprany wynik.

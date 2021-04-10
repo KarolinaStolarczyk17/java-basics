@@ -11,8 +11,11 @@ public class Main04 {
     private static double calculateSum(String[] input) {
         double result = 0;
         for (int i = 1; i < input.length; i++) {
-            result = Integer.parseInt(input[i]);
+            result += Integer.parseInt(input[i]);
         }
         return result;
     }
 }
+//W pliku Main04 znajduje się metoda, która ma obliczyć sumę elementów podanych jako argument.
+//
+//zdebuguj, a następnie popraw program tak by zwracał poprany wynik.

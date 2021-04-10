@@ -12,3 +12,9 @@ public class Main03 {
 
     }
 }
+// następnie uruchom program w trybie debugowania.
+//
+//wznawiaj program kilka razy, a następnie go zatrzymaj,
+//zmodyfikuj breakpoint nadając mu warunek i<3,
+//debuguj ponownie program, do momentu wystąpienia wyjątku,
+//pozostaw program z błędem.
